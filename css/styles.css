@@ -70,6 +70,10 @@ body {
 .current {
   color: var(--logo-color);
 }
+
+.fon {
+  background-color: #2f303a;
+}
 .busines {
   font-family: "Roboto";
   font-style: normal;
@@ -81,9 +85,6 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.fon {
-  background-color: #2f303a;
 }
 .order {
   border: none;
@@ -101,21 +102,18 @@ body {
 .order:focus {
   background-color: #2196f3;
 }
-.person {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.person-position {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .skills {
   font-style: normal;
@@ -134,19 +132,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .section-team {
   background: #f5f4fa;
 }
@@ -164,6 +150,56 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+}
+.person {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.person-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.sections-portfolio {
+  background: #f5f4fa;
+}
+.portfolio-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-element {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+.portfolio-title-list {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 .floor {
   background-color: #2f303a;
