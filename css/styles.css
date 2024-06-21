@@ -21,13 +21,13 @@ button {
   font-family: "Roboto", sans-serif;
 }
 .web {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
@@ -40,10 +40,17 @@ button {
   color: var(--text-color);
 }
 .studio-color {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
-.studio-ft {
-  color: #f4f4fd;
+.web-study-current {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.web-study-current:hover,
+.web-study-current:focus {
+  color: #404bbf;
 }
 .web-study:hover,
 .web-study:focus {
@@ -60,9 +67,6 @@ button {
 .tel:hover,
 .tel:focus {
   color: #2196f3;
-}
-.current {
-  color: var(--logo-color);
 }
 
 .fon {
@@ -82,7 +86,7 @@ button {
 }
 .order {
   border: none;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -94,7 +98,7 @@ button {
 }
 .order:hover,
 .order:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .visually-hidden {
   position: absolute;
@@ -134,11 +138,11 @@ button {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize
+  text-transform: capitalize;
   color: #2e2f42;
 }
-.team-list{
-    background-color: #FFFFFF
+.team-list {
+  background-color: #ffffff;
 }
 .team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -171,8 +175,8 @@ button {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em
-  text-transform: capitalize
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portfolio-element {
@@ -185,7 +189,7 @@ button {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -213,4 +217,7 @@ button {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+.studio-ft {
+  color: #f4f4fd;
 }
