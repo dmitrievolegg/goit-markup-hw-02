@@ -25,15 +25,15 @@ button {
 }
 
 :root {
-  --text-color: #212121;
+  --text-color: #2e2f42;
   --bggolor: #ffffff;
-  --neader-footer-textcolor: #757575;
+  --neader-footer-textcolor: #434455;
   --logo-color: #2196f3;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #fff;
+  color: #434455;
+  background-color: #ffffff;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -61,7 +61,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: #434455;
 }
 .tel:hover,
 .tel:focus {
@@ -116,21 +116,17 @@ body {
   overflow: hidden;
 }
 .skills {
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  color: #212121;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   text-transform: uppercase;
-  font-size: 14px;
 }
 .skills-paragraph {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
-  color: #757575;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .section-team {
@@ -143,7 +139,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #2e2f42;
 }
 .team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -157,7 +153,7 @@ body {
   font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #2e2f42;
 }
 .person-position {
   font-weight: 400;
@@ -165,7 +161,7 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: #434455;
 }
 .sections-portfolio {
   background: #f5f4fa;
@@ -177,7 +173,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #2e2f42;
 }
 .portfolio-element {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -191,7 +187,7 @@ body {
   font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: #2e2f42;
 }
 .portfolio-position {
   font-weight: 400;
@@ -199,25 +195,22 @@ body {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: #434455;
 }
 .floor {
-  background-color: #2f303a;
+  background-color: #2e2f42;
 }
 .web-floor {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .paragraph-floor {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
