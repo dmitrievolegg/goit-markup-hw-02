@@ -31,18 +31,8 @@ button {
   color: #4d5ae5;
 }
 
-.web-study {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-.studio-color {
-  color: #2e2f42;
-}
 .web-study-current {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -52,21 +42,38 @@ button {
 .web-study-current:focus {
   color: #404bbf;
 }
+
+.web-study {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.studio-color {
+  color: #2e2f42;
+}
+
 .web-study:hover,
 .web-study:focus {
   color: #2196f3;
 }
+
+.class-address {
+  font-style: normal;
+}
+
 .tel {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .tel:hover,
 .tel:focus {
-  color: #2196f3;
+  color: #404bbf;
 }
 
 .fon {
@@ -133,6 +140,7 @@ button {
 }
 .our-team {
   font-style: normal;
+  background-color: #ffffff;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -141,9 +149,7 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.team-list {
-  background-color: #ffffff;
-}
+
 .team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
