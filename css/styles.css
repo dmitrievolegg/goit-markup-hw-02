@@ -21,13 +21,14 @@ button {
   font-family: "Roboto", sans-serif;
 }
 .web {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  text-transform: uppercase
+  color: #4d5ae5;
 }
 
 .web-study {
@@ -39,7 +40,7 @@ button {
   color: var(--text-color);
 }
 .studio-color {
-  color: black;
+  color: #4d5ae5;
 }
 .studio-ft {
   color: #f4f4fd;
@@ -65,35 +66,35 @@ button {
 }
 
 .fon {
-  background-color: #2f303a;
+  background-color: #2e2f42;
 }
 .busines {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 56px;
+  line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .order {
   border: none;
-  background-color: #188ce8;
-  font-weight: 700;
+  background-color: #4D5AE5;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   color: #ffffff;
 }
 .order:hover,
 .order:focus {
-  background-color: #2196f3;
+  background-color: #404BBF;
 }
 .visually-hidden {
   position: absolute;
@@ -124,16 +125,20 @@ button {
 }
 
 .section-team {
-  background: #f5f4fa;
+  background: #f4f4fd;
 }
 .our-team {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
+  text-transform: capitalize
   color: #2e2f42;
+}
+.team-list{
+    background-color: #FFFFFF
 }
 .team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -143,18 +148,18 @@ button {
 }
 .person {
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .person-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .sections-portfolio {
@@ -164,9 +169,10 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em
+  text-transform: capitalize
   color: #2e2f42;
 }
 .portfolio-element {
@@ -177,18 +183,18 @@ button {
 }
 .portfolio-title-list {
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .portfolio-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .floor {
