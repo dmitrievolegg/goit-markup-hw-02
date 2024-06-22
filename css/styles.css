@@ -1,16 +1,14 @@
 li {
-  font-family: 'Roboto',
-      sans-serif;
+  font-family: "Roboto", sans-serif;
   list-style-type: none;
-  
 }
-a{
+a {
   text-decoration: none;
 }
 ul {
   margin-left: 0;
   padding-left: 0;
-
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
