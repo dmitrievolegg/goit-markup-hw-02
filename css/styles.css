@@ -10,6 +10,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
@@ -40,6 +41,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
   color: #434455;
 }
 .tel:hover,
@@ -94,6 +96,7 @@ button {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -125,6 +128,7 @@ button {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portfolio-element {
@@ -158,6 +162,7 @@ button {
   color: #4d5ae5;
 }
 .paragraph-floor {
+  font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
