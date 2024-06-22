@@ -31,9 +31,12 @@ button {
 }
 
 .studio-color {
+  text-transform: uppercase;
   color: #2e2f42;
 }
-
+.class-address {
+  font-style: normal;
+}
 .tel {
   font-size: 16px;
   line-height: 1.5;
@@ -85,6 +88,7 @@ button {
 }
 
 .section-team {
+  text-transform: capitalize;
   background: #f4f4fd;
 }
 .our-team {
@@ -92,11 +96,11 @@ button {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
 }
 
 .team {
+  text-transform: capitalize;
   background-color: #ffffff;
   text-align: center;
 }
@@ -128,6 +132,7 @@ button {
   color: #2e2f42;
 }
 .portfolio-element {
+  text-transform: capitalize;
   text-align: center;
 }
 .portfolio-title-list {
